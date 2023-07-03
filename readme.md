@@ -10,7 +10,7 @@ Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários 
       <a href="https://github.com/KauanCarolino">
         <img src="https://github.com/KauanCarolino.png" width="100px;" alt="Foto do Kauan no GitHub"/><br>
         <sub>
-          <b>Rafael Fontenele</b>
+          <b>Kauan</b>
         </sub>
       </a>
     </td>
