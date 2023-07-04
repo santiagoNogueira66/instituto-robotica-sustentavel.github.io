@@ -13,6 +13,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 25px;
+    width: 96,2%;
     background-color: #dbba61;
     height: 40px;
 }
@@ -41,12 +42,11 @@ header .imagem-botao:hover{
 }
 
 
-.container-video{
+.container-video {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
 }
 
 .video{
@@ -56,27 +56,64 @@ header .imagem-botao:hover{
 }
 
 .robotica-banner{
-    width: 1005;
     margin: 20px;
+    max-width: 100%;
 }
 
 .robotica-banner img {
     width: 100%;
+    height: auto;
 }
 
-.botoes{
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 30px;
     padding: 35px;
 }
-
-.botoes img{
+  
+  .botoes img {
     padding: 25px;
 }
-
-.animacao-botao{
+  
+  .animacao-botao {
     transition: 0.2s ease-in-out;
 }
-.animacao-botao:hover{
-	transform: scale(1.05);
-	cursor: pointer;
+  
+  .animacao-botao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+  
+
+.titulo-barra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  border: 10px solid #dbba61;
+  border-radius: 60px;
+  background-color: #dbba61;
+  margin: 130px auto auto;
+}
+
+.titulo{
+    color: #05a71c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.texto-missao-valores {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: justify;
+    margin: 50px;
+    color: #0b3b08;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
