@@ -1,6 +1,12 @@
 ## Projeto Site/Sistema Robótica Sustentável
 
-Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários do Instituto Robótica Sustentável
+Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários do [Instituto Robótica Sustentável](https://roboticasustentavel.org.br/) 
+
+<a href="https://www.instagram.com/robotica_sustentavel" target="_blank">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="20" height="20" alt="instagram logo"  />
+</a>
+
+
 
 ### Contrubuidores
 
