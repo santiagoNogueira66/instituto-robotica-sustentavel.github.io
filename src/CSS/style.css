@@ -3,35 +3,45 @@
     margin: 0;
 }
 
-.background-logo{
-    width: 150%;
-    height: 50px;
-    background-color: #dbb6b6 ;
-    position: relative;
-}
-
-.background-logo a {
-    background-image: url(../assets/img/Robótica\ Sustentável\ png.png);
-    background-size: cover;
-    display: block;
-    margin-left: 20px;
-    width: 100px;
-    height: 50px;
-    background-size: cover;
-}
-
-.logo{
-    margin-left: 20px;
-    width: 160px;
-    height: 100px;
-}
-
 body{
     height: 100%;
     margin: 0;
+    background-color: #faf1d2;
 }
 
-.container{
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+    background-color: #dbba61;
+    height: 40px;
+}
+
+header .logo-robotica{
+	width: 200px;
+	transition: 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+header .imagem-botao{
+    width: 40px;
+    height: 35px;
+    transition: 0.2s ease-in-out;
+    margin-top: 5px;
+}
+
+header .logo-robotica:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+header .imagem-botao:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.container-video{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,4 +53,30 @@ body{
     margin: 20px;
     width: 100%;
     height: 500px;
+}
+
+.robotica-banner{
+    width: 1005;
+    margin: 20px;
+}
+
+.robotica-banner img {
+    width: 100%;
+}
+
+.botoes{
+    margin: 30px;
+    padding: 35px;
+}
+
+.botoes img{
+    padding: 25px;
+}
+
+.animacao-botao{
+    transition: 0.2s ease-in-out;
+}
+.animacao-botao:hover{
+	transform: scale(1.05);
+	cursor: pointer;
 }
